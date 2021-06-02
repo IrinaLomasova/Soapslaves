@@ -1,0 +1,190 @@
+body {
+
+font-family: Arial, Verdana, sans-serif; /* Семейство шрифтов */
+
+font-size: 11pt; /* Размер основного шрифта в пунктах */
+
+background-color: #d3caff; /* Цвет фона веб-страницы */
+
+color: #333; /* Цвет основного текста */
+
+}
+
+h1 {
+
+color: #8764da; /* Цвет заголовка */
+
+font-size: 24pt; /* Размер шрифта в пунктах */
+
+font-family: Georgia, Times, serif; /* Семейство шрифтов */
+
+font-weight: normal; /* Нормальное начертание текста */
+
+}
+
+input
+
+{
+
+border: 0px;
+
+background-color:#d3caff;
+
+}
+
+select
+
+{
+
+background-color:#d3caff;
+
+}
+
+p {
+
+text-align: justify; /* Выравнивание по ширине */
+
+margin-left: 60px; /* Отступ слева в пикселах */
+
+margin-right: 10px; /* Отступ справа в пикселах */
+
+border-left: 1px solid #999; /* Параметры линии слева */
+
+border-bottom: 1px solid #999; /* Параметры линии снизу */
+
+padding-left: 10px; /* Отступ от линии слева до текста */
+
+padding-bottom: 10px; /* Отступ от линии снизу до текста */
+
+}
+
+table {
+
+width: 760px; /* Ширина таблицы */
+
+border: 1px solid black; /* Рамка вокруг таблицы */
+
+margin: auto; /* Выравниваем таблицу по центру окна */
+
+background-color: #ae88dd;
+
+}
+
+Продолжение Приложения Б
+
+td {
+
+padding: 10px 0;
+
+text-align: center; /* Выравниваем текст по центру ячейки */
+
+}
+
+ul {
+
+list-style: none;
+
+margin: 0 auto;
+
+}
+
+a {
+
+text-decoration: none;
+
+font-family: 'Lora', serif;
+
+transition: .5s linear;
+
+}
+
+i {
+
+margin-right: 10px;
+
+}
+
+nav {
+
+width: 600px;
+
+margin:0 auto 30px;
+
+text-align: center;
+
+}
+
+.one ul {
+
+padding: 1em 0;
+
+background: #ae88dd
+
+vertical-align:top
+
+}
+
+.one a {
+
+padding: 1em;
+
+line-height: normal;
+
+background: #d3caff;
+
+border-right: 1px solid #b19891;
+
+display: block;
+
+color: black;
+
+}
+
+.one a:hover {background: #b19891;}
+
+.one li {
+display: inline-block;
+
+}
+
+body {
+
+background: #d6eaf8;
+
+}
+
+.gradient-button {
+
+text-decoration: none;
+
+display: inline-block;
+
+color: black;
+
+padding: 20px 30px;
+
+margin: 10px 20px;
+
+border-radius: 10px;
+
+font-family: 'Montserrat', sans-serif;
+
+text-transform: uppercase;
+
+letter-spacing: 2px;
+
+background-image: linear-gradient(to right, #d3caff 0%,#BA55D3 51%, #4B0082 100%);
+
+background-size: 200% auto;
+
+box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+
+transition: .5s;
+
+}
+
+.gradient-button:hover {
+
+background-position: right center;
+
+}
